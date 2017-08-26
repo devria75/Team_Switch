@@ -1,19 +1,32 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team_Switch.Plugins", "Team_Switch.Plugins.csproj", "{563B1402-3ED3-F8BB-D355-57CF87741BFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team_Switch", "Team_Switch.csproj", "{A7B28699-219B-3D1E-D315-D5F5BEC975D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team_Switch.Editor.Plugins", "Team_Switch.Editor.Plugins.csproj", "{6DFDD4D0-5FC5-781F-CC53-390925B890A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{563B1402-3ED3-F8BB-D355-57CF87741BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563B1402-3ED3-F8BB-D355-57CF87741BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563B1402-3ED3-F8BB-D355-57CF87741BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563B1402-3ED3-F8BB-D355-57CF87741BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B28699-219B-3D1E-D315-D5F5BEC975D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B28699-219B-3D1E-D315-D5F5BEC975D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B28699-219B-3D1E-D315-D5F5BEC975D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B28699-219B-3D1E-D315-D5F5BEC975D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DFDD4D0-5FC5-781F-CC53-390925B890A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFDD4D0-5FC5-781F-CC53-390925B890A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFDD4D0-5FC5-781F-CC53-390925B890A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFDD4D0-5FC5-781F-CC53-390925B890A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
